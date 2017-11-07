@@ -8,6 +8,8 @@
 
 .actor  { position: absolute;  }
 .player { background: rgb(64, 64, 64); }
+.coin {background: rgb(241, 229, 89);}
+.swap {background: rgb(50,20,255);}
 
 .game {
   overflow: hidden;
