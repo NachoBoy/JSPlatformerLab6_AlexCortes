@@ -6,7 +6,7 @@ var GAME_LEVELS = [
    "                      ooo                   !                                   ",
    "                                            !                                   ",
    "                                            !       u                           ",
-   "                                            !                                   ",
+   "                |                           !                                   ",
    "                                    o o     !                     uu             ",
    "                                            !                    !  !           ",
    "                         yyy                !                    !  !           ",
