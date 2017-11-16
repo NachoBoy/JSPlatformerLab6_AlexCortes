@@ -1,13 +1,13 @@
-.background    { background: rgb(52, 166, 251);
+.background    { background: rgb(155, 166, 251);
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
 .lava          { background: rgb(100, 255, 50); }
-.wall          { background: white;   }
+.wall          { background: black;   }
 .floater	   { background: rgb(100,100,100);}
 
 .actor  { position: absolute;  }
-.player { background: rgb(64, 64, 64); }
+.player { background: rgb(255, 255, 255); }
 .coin {background: rgb(241, 229, 89);}
 .swap {background: rgb(50,20,255);}
 
@@ -19,8 +19,8 @@
 }
 
 .lost .player {
-  background: rgb(160, 64, 64);
+  background: rgb(50, 200, 64);
 }
 .won .player {
-  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+  box-shadow: -4px -7px 8px blue, 4px -7px 8px blue;
 
