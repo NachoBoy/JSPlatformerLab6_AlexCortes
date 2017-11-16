@@ -213,8 +213,11 @@ Level.prototype.obstacleAt = function (pos,size){
 	var yStart = Math.floor(pos.y);
 	var yEnd = Math.ceil(pos.y + size.y);
 	
-	if (xStart < 0 || xEnd > this.width || yStart < 0 || yEnd > this.height){
+	if (xStart < 0 || xEnd > this.width || yStart < 0){
 		return 'wall';
+	}
+	if (yEnd > this.height){
+		return "lava";
 	}
 	
 	for (var y = yStart; y < yEnd; y++){
